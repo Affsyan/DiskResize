@@ -1,4 +1,4 @@
-#Тестовое задание без использования Python  
+# Тестовое задание без использования Python  
 
 Необходимо написать комплект powershell-скриптов, последовательно выполняющие следующие операции:  
 
@@ -12,10 +12,10 @@
 
 Большим плюсом будет реализация в виде программы-агента на Python.  
 
-#Параметры для запуска:  
-#-EfiSizeGB - Размер Efi раздела  
-#-MinUnallocatedGB - Минимальное освобожденное место после сжатия системного диска  
-#-EnableLog - Включение лога  
-#-LogFile - Путь до LOG файла  
+# Параметры для запуска:  
+# -EfiSizeGB - Размер Efi раздела  
+# -MinUnallocatedGB - Минимальное освобожденное место после сжатия системного диска  
+# -EnableLog - Включение лога  
+# -LogFile - Путь до LOG файла  
 
-#.\TestDiskResize.ps1 -EfiSizeGB 10 -MinUnallocatedGB 20 -EnableLog -LogFile "C:\Temp\DiskResize.log"
+# .\TestDiskResize.ps1 -EfiSizeGB 10 -MinUnallocatedGB 20 -EnableLog -LogFile "C:\Temp\DiskResize.log"
